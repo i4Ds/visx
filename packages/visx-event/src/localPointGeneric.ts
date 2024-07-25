@@ -32,7 +32,7 @@ export default function localPoint(node: Element, event: EventType) {
   const coords = getXAndYFromEvent(event);
 
   // find top-most SVG
-  const svg = isSVGElement(node) ? node.ownerSVGElement : node;
+  const svg = isSVGElement(node) && !isSVGSVGElement(node) ? node.ownerSVGElement : node;
   const screenCTM = isSVGGraphicsElement(svg) ? getChildScreenCTM(svg) : null;
 
   if (isSVGSVGElement(svg) && screenCTM) {
