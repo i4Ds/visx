@@ -1,6 +1,6 @@
 {
   "name": "@visx/threshold",
-  "version": "3.5.0",
+  "version": "3.13.0-alpha.0",
   "description": "visx threshold",
   "sideEffects": false,
   "main": "lib/index.js",
@@ -25,13 +25,13 @@
   "license": "MIT",
   "dependencies": {
     "@types/react": "*",
-    "@visx/clip-path": "3.3.0",
-    "@visx/shape": "3.5.0",
+    "@visx/clip-path": "3.13.0-alpha.0",
+    "@visx/shape": "3.13.0-alpha.0",
     "classnames": "^2.3.1",
     "prop-types": "^15.5.10"
   },
   "peerDependencies": {
-    "react": "^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0"
+    "react": "^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0 || ^19.0.0-0"
   },
   "publishConfig": {
     "access": "public"

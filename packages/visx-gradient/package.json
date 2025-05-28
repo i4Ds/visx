@@ -1,6 +1,6 @@
 {
   "name": "@visx/gradient",
-  "version": "3.3.0",
+  "version": "3.13.0-alpha.0",
   "description": "visx gradient",
   "sideEffects": false,
   "main": "lib/index.js",
@@ -32,7 +32,7 @@
     "prop-types": "^15.5.7"
   },
   "peerDependencies": {
-    "react": "^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0"
+    "react": "^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0 || ^19.0.0-0"
   },
   "publishConfig": {
     "access": "public"

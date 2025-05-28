@@ -1,6 +1,6 @@
 {
   "name": "@visx/annotation",
-  "version": "3.3.0",
+  "version": "3.13.2-alpha.0",
   "description": "visx annotation",
   "sideEffects": false,
   "main": "lib/index.js",
@@ -28,13 +28,13 @@
   },
   "homepage": "https://github.com/airbnb/visx#readme",
   "peerDependencies": {
-    "react": "^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0"
+    "react": "^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0 || ^19.0.0-0"
   },
   "dependencies": {
     "@types/react": "*",
-    "@visx/drag": "3.3.0",
-    "@visx/group": "3.3.0",
-    "@visx/text": "3.3.0",
+    "@visx/drag": "3.13.0-alpha.0",
+    "@visx/group": "3.13.0-alpha.0",
+    "@visx/text": "3.13.2-alpha.0",
     "classnames": "^2.3.1",
     "prop-types": "^15.5.10",
     "react-use-measure": "^2.0.4"
